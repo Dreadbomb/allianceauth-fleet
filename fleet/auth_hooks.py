@@ -14,7 +14,7 @@ class FleetMenuItem(MenuItemHook):
         MenuItemHook.__init__(
             self,
             _("Fleet"),
-            "fa fa-users fa-fw",
+            "fas fa-users fa-fw",
             "fleet:dashboard",
             navactive=["fleet:"],
         )
